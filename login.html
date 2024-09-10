@@ -25,10 +25,47 @@
                 align-items: center;
 
                 height: 90vh ;
+                background-image: url('https://img.freepik.com/free-vector/beige-leafy-watercolor-background-vector_53876-136491.jpg');
+                background-size: cover;
+                
             }
             .form title{
                 text-align: center;
                 font-family: Roboto;
+                font-size: 30px;
+            }
+            .text-input{
+                display: block;
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                border-radius: 1px;
+                border: none;
+                border: 1px solid grey;
+                background-color: #f4efef;
+                outline: none;
+                
+            }
+            .submit-btn{
+                background-color: crimson;
+                color: aliceblue;
+                padding: 5px;
+                border: none;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .submit-btn:hover{
+                background-color: black;
+            }
+            .link{
+                text-decoration: none;
+                color: crimson;
+                font-weight: bold;
+            }
+            .link:hover{
+                text-decoration: underline;
+                color: blue;
             }
     
     </style>
@@ -43,6 +80,7 @@
             <input type="text" class="text-input">
             <label>Password</label>
             <input type="text" class="text-input"> 
+            <a href="#" class="link">Forgot Password?</a>
             <button class="submit-btn">Submit</button>
         </form>
     </div>
